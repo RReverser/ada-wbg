@@ -7,6 +7,6 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
-ada-url = { path = "../ada-rust", features = ["libcpp"] }
-libc_alloc = "1.0.5"
+ada-url = { git = "https://github.com/RReverser/ada-rust-wasm" }
+mallocator = "0.1.0"
 wasm-bindgen = "0.2.87"
